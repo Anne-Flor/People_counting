@@ -1,12 +1,10 @@
 import numpy as np
 import cv2 
-import time
 
 #x: a coordenada x do canto superior esquerdo do retângulo.
 #y: a coordenada y do canto superior esquerdo do retângulo.
 #w: a largura do retângulo.
 #h: a altura do retângulo.
-
 def center(x, y, w, h):
     x1 = int(w / 2)
     y1 = int(h / 2)
@@ -15,8 +13,6 @@ def center(x, y, w, h):
     return cx, cy
 
 cap = cv2.VideoCapture('caminando.mp4')
-
-pause = False
 
 detects = []
 
