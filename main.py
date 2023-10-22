@@ -32,8 +32,6 @@ total = 0
 up    = 0
 down  = 0
 
-pause = False
-
 # Pular para o frame inicial
 cap.set(cv2.CAP_PROP_POS_FRAMES, start_frame)
 
